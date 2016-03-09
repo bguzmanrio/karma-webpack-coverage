@@ -2,8 +2,8 @@ module.exports = (function(){
   
   return {
         entry: {
-          lmn: './js/entryPoints/lmn.js',
-          rmb: './js/entryPoints/rmb.js'
+          entr1: './js/entryPoints/entr1.js',
+          entr2: './js/entryPoints/entr2.js'
         },
         output: {
           path: './dist/',
