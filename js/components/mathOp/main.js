@@ -1,5 +1,3 @@
-
-
 module.exports = (function(){
   
   var sum = function( a, b ){
@@ -35,7 +33,7 @@ module.exports = (function(){
   };
   
   var summatory = function( from, to, f ){
-    var accum = from <= to ? f( from, to ) + summatory2( from+1, to, f ) : 0;
+    var accum = from <= to ? f( from, to ) + summatory( from+1, to, f ) : 0;
     return accum;
   };
   

@@ -81,7 +81,8 @@ module.exports = (function(){
   return {
     insertionSort: insertionSort,
     selectionSort: selectionSort,
-    
+    bigArrayGenerator: bigArrayGenerator,
+    quickSort: quickSort
   }
   
 })();
