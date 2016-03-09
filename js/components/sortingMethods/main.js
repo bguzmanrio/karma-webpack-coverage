@@ -73,7 +73,7 @@ module.exports = (function(){
   var bigArrayGenerator = function( positions ){
     var arr = [];
     for(var i = 0; i<(positions || 100); i++){
-      arr.push(parseInt(Math.random()*10000*positions));
+      arr.push(parseInt(Math.random()*10000*(positions || 10)));
     }
     return arr;
   };

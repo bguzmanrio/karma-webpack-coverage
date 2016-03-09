@@ -7,7 +7,7 @@ module.exports = function(config) {
   config.set({
     
     //Browser in which will be tested
-    browsers: [ 'Chrome' ],
+    browsers: [ 'PhantomJS' ],
         
     //Select which testing frameworks to use
     frameworks: ['jasmine' ],
@@ -31,7 +31,7 @@ module.exports = function(config) {
     reporters: [ 'mocha', 'coverage', 'threshold' ], //report results in this format
 
     //Run only once
-    singleRun: true,
+    singleRun: false,
     
     //Webpack config for karma run:
     //  -Resolve is needed for require resolutions (same as webpack.config)
